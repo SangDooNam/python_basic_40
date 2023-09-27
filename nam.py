@@ -204,7 +204,7 @@ def pig_latin(*strings, suffix = 'ay', single = False):
             
     if single == True:
         
-        return ' '.join(container)
+        return (' '.join(container)).capitalize()
     else:
         
         return container
